@@ -2,9 +2,6 @@ services:
   - type: web
     name: pinecoach-ai
     env: python
-    plan: free
+    pythonVersion: 3.11.9
     buildCommand: pip install -r requirements.txt
-    startCommand: uvicorn app.main:app --host 0.0.0.0 --port 10000
-    envVars:
-      - key: ENV
-        value: production
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
