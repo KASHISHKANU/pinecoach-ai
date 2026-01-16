@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>PineCoach AI</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="app-bg"></div>
+
+  <div class="chat-container">
+    <header class="chat-header">
+      🌲 <span>PineCoach AI</span>
+      <p>Your Investing & Market Intelligence Assistant</p>
+    </header>
+
+    <main id="chat-box" class="chat-box">
+      <div class="bot-message">
+        👋 Hi! I can help you learn investing concepts or explain today’s market news.<br><br>
+        <strong>Try:</strong>
+        <ul>
+          <li>What is SIP?</li>
+          <li>Why is the market down today?</li>
+          <li>Explain mutual funds</li>
+        </ul>
+      </div>
+    </main>
+
+    <footer class="chat-input">
+      <input
+        id="user-input"
+        type="text"
+        placeholder="Ask about investing or market news..."
+        autocomplete="off"
+      />
+      <button onclick="sendMessage()">Send</button>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

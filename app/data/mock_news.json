@@ -1,0 +1,24 @@
+{
+  "date": "2026-01-16",
+  "market_summary": {
+    "indices": {
+      "NIFTY_50": "-0.6%",
+      "SENSEX": "-0.5%"
+    },
+    "trend": "negative"
+  },
+  "reasons": [
+    "Weak global cues from US markets",
+    "Rising US bond yields increased risk aversion",
+    "Profit booking after recent market rally"
+  ],
+  "global_markets": {
+    "US": "Dow Jones closed lower amid inflation concerns",
+    "Asia": "Asian markets traded mixed following US cues"
+  },
+  "sectors": {
+    "IT": "Underperformed due to weak global tech sentiment",
+    "Banking": "Marginally down as bond yields rose",
+    "FMCG": "Relatively stable with defensive buying"
+  }
+}
