@@ -1,9 +1,10 @@
 # app/services/openai_client.py
 
-from openai import OpenAI
 from app.config import settings
+import openai
+import os
 
-client = OpenAI(api_key=settings.OPENAI_API_KEY)
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
 def generate_response(system_prompt: str, user_prompt: str) -> str:
     response = client.chat.completions.create(
